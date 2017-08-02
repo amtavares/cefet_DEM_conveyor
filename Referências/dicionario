@@ -1,0 +1,19 @@
+v[0][i]=0.0; //velocidade eixo x
+v[1][i]=0.0;            //eixo y
+a[0][i]=0.0; //aceleraçao
+a[1][i]=0.0;
+rot1[i]=0.0; //posição angular, arbitrária
+rot2[i]=0.0; //velocidade angular
+rot3[i]=0.0; //aceleraçao angular
+
+
+vijt = xt1*(vp1j-vp1i)+xt2*(vp2j-vp2i) - rot2p[i]*xr[i]-rot2p[j]*xr[j]; //velocidade tangencial v angular -> v=w*r
+vijt
+xt1
+vp1i
+
+( rot2p[i]*xr[i] - rot2p[j]*xr[j] ) // Omega 1 - Omega 2
+xt2
+vp2i
+rot2p
+xr
